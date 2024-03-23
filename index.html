@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Web Resume</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <style>
+        body {
+            font-family: "Arial", sans-serif; /* Change font family to Arial for a more formal look */
+        }
+        #header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        #name {
+            display: flex;
+            align-items: center;
+        }
+        #name h1,
+        #name h3 {
+            margin: 0;
+        }
+        #contact {
+            text-align: right;
+        }
+        #profile p,
+        #skills ul {
+            text-align: justify;
+        }
+        #logo {
+            margin-right: 10px; /* Add space before the image */
+        }
+
+        /* Remove justification for skills */
+        #skills ul {
+            text-align: left; /* Change to left alignment */
+        }
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div id="header">
+            <div id="name">
+                <img id="logo" src="images/picture.png" width="150" height="150">
+                <div>
+                    <h1>Bryan Sampaga</h1>
+                    <h3>Full stack Engineer</h3>
+                </div>
+            </div><!--name-->
+            <div id="contact">
+                <strong>Email: </strong>bryansampaga@gmail.com<br />
+                <strong>Phone: </strong> (+63) 9360361052
+            </div><!--contact-->
+        </div><!--header-->
+        <div class="clr"></div>
+        <div id="profile" class="row">
+            <h2 class="left">Profile</h2>
+            <p>Experienced Web Developer proficient in front-end and back-end development technologies such as HTML5, CSS3, JavaScript, React, Node.js, and SQL. Skilled in responsive design, cross-browser compatibility, and collaboration within cross-functional teams. Passionate about leveraging emerging technologies to deliver innovative solutions and meet client objectives.</p> 
+        </div><!--profile-->
+        <div class="clr"></div>
+        <div id="skills" class="row">
+            <h2 class="left">Skills</h2>
+            <ul>
+                <li>
+                    <h2>Skill1</h2>
+                    <p>HTML/CSS: Fundamental for structuring and styling web pages.</p>
+                </li>
+                <li>
+                    <h2>Skill2</h2>
+                    <p>JavaScript: Enables dynamic and interactive elements on web pages, along with frameworks and libraries like React, Angular, or Vue.js.</p>
+                </li>
+                <li>
+                    <h2>Skill3</h2>
+                    <p>Responsive Design: Ability to create websites that adapt seamlessly to various screen sizes and devices using techniques like CSS Flexbox, Grid, or Bootstrap.</p>
+                </li>
+            </ul>
+        </div><!--skills-->
+        <div class="clr"></div>
+        <div id="skills" class="row">
+            <h2 class="left">Skills</h2>
+            <ul>
+                <li>
+                    <h2>Skill1</h2>
+                    <p>Front-End Frameworks: Proficiency in popular front-end frameworks such as React.js, Angular, or Vue.js for efficient development and maintenance of complex web applications.</p>
+                </li>
+                <li>
+                    <h2>Skill2</h2>
+                    <p>Back-End Development: Knowledge of server-side programming languages like Node.js, Python (with frameworks like Django or Flask), or Ruby (with Ruby on Rails) to build server-side logic and databases.</p>
+                </li>
+                <li>
+                    <h2>Skill3</h2>
+                    <p>Database Management: Understanding of database management systems like SQL (e.g., MySQL, PostgreSQL) or NoSQL (e.g., MongoDB) for data storage and retrieval.</p>
+                </li>
+            </ul>
+        </div><!--skills-->
+        <div id="footer"><p>All rights reserved. &copy; 2017</p></div>
+    </div><!--container-->
+</body>
+</html>
